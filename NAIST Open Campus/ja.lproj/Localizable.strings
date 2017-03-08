@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  NAIST Open Campus
+
+  Created by Edess Akpa on 11/10/16.
+  Copyright © 2016 Edess Akpa. All rights reserved.
+*/
+
+mainViewPage.logoutWarningTitle = "注意";
+mainViewPage.logoutWarningMessage = "本当にログアウトしますか？ すべてのポイントを失います.";
+mainViewPage.logoutWarningActionYes = "はい、ログアウトします";
+mainViewPage.logoutWarningActionNO = "いいえ";
+
+mainViewPage.cameraUserPositionTitle = "遠すぎます！";
+mainViewPage.cameraUserPositionMessage = "Ubiiのポスターの近くに行って、もう一度ためしてください";
+
+//
+
+registrationViewPage.SuccessTitle = "登録完了！";
+registrationViewPage.SuccessMessage = "ユーザが登録されました！アプリを楽しんでください！";
+
+registrationViewPage.EmptyFieldsTitle = "すべての項目を入力してください";
+registrationViewPage.EmptyFieldsMessg = "ユーザ登録には、すべての項目を入力する必要があります。";
+
+//Camera photo page [viewControllerCamera] alertController
+cameraViewPage.ImageSentTitle = "完璧です！";
+cameraViewPage.ImageSentMsg = "写真が、サーバーに送信されました";
+
+cameraViewPage.ImageNotSentTitle = "すみません";
+cameraViewPage.ImageNotSentMessage = "問題が起こりました！もう一度ためしてください";
+
+cameraViewPage.ImageAlreadyTookTitle = "おっと！";
+cameraViewPage.ImageAlreadyTookMessage = "この場所ですでにチェックインしています！";

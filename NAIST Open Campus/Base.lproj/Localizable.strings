@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  NAIST Open Campus
+
+  Created by Edess Akpa on 11/10/16.
+  Copyright © 2016 Edess Akpa. All rights reserved.
+*/
+
+// main view [viewController] alertController
+mainViewPage.logoutWarningTitle = "Warning";
+mainViewPage.logoutWarningMessage = "Do you really want to unregister your account? You may lost all your points.";
+mainViewPage.logoutWarningActionYes = "Yes, create a new account!";
+mainViewPage.logoutWarningActionNO = "No";
+
+mainViewPage.cameraUserPositionTitle = "You are not close";
+mainViewPage.cameraUserPositionMessage = "Please go near to Ubi-chan poster (in NAIST) and try again.";
+
+
+//registration page [viewControllerRegistration] alertController
+registrationViewPage.SuccessTitle = "Cool";
+registrationViewPage.SuccessMessage = "You have been registered! Enjoy the app!";
+
+registrationViewPage.EmptyFieldsTitle = "All fields are required";
+registrationViewPage.EmptyFieldsMessg = "Please fill all the fields to register your account.";
+
+
+//Camera photo page [viewControllerCamera] alertController
+cameraViewPage.ImageSentTitle = "Perfect";
+cameraViewPage.ImageSentMsg = "Your image has been sent to the server";
+
+cameraViewPage.ImageNotSentTitle = "Sorry";
+cameraViewPage.ImageNotSentMessage = "A problem Occurred! Please try again";
+
+cameraViewPage.ImageAlreadyTookTitle = "Ooopss";
+cameraViewPage.ImageAlreadyTookMessage = "You already took this image";
+

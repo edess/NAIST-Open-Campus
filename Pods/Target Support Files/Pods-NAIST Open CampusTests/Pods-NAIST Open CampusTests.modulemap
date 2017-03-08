@@ -1,0 +1,6 @@
+framework module Pods_NAIST_Open_CampusTests {
+  umbrella header "Pods-NAIST Open CampusTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Tutorial"; ObjectID = "3gl-OD-JJm"; */
+"3gl-OD-JJm.text" = "チュートリアル";
+
+/* Class = "UIButton"; normalTitle = "Log out "; ObjectID = "4Uv-gi-zec"; */
+"4Uv-gi-zec.normalTitle" = "ログアウト";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "4li-CO-bz6"; */
+"4li-CO-bz6.text" = "4";
+
+/* Class = "UILabel"; text = "Username:"; ObjectID = "A1c-kf-Ow8"; */
+"A1c-kf-Ow8.text" = "ユーザー名:";
+
+/* Class = "UILabel"; text = "Back"; ObjectID = "IIL-wR-Zag"; */
+"IIL-wR-Zag.text" = "戻る";
+
+/* Class = "UIButton"; normalTitle = "Okay"; ObjectID = "Iq0-aN-j0s"; */
+"Iq0-aN-j0s.normalTitle" = "閉じる";
+
+/* Class = "UILabel"; text = "xxxx-yyyyy-aaaaa-bbbb-dddd"; ObjectID = "N3d-eO-Kxs"; */
+"N3d-eO-Kxs.text" = "xxxx-yyyyy-aaaaa-bbbb-dddd";
+
+/* Class = "UILabel"; text = "Camera"; ObjectID = "Oft-UV-c2p"; */
+"Oft-UV-c2p.text" = "カメラ";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Opj-aO-vUr"; */
+"Opj-aO-vUr.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "QR code"; ObjectID = "Qn3-yT-Mtx"; */
+"Qn3-yT-Mtx.normalTitle" = "QR コード";
+
+/* Class = "UILabel"; text = "Random key = 00000000"; ObjectID = "TYb-ZV-vOU"; */
+"TYb-ZV-vOU.text" = "Random key = 00000000";
+
+/* Class = "UILabel"; text = "Send"; ObjectID = "UD8-Ur-vdm"; */
+"UD8-Ur-vdm.text" = "送信";
+
+/* Class = "UILabel"; text = "Points:"; ObjectID = "UMd-Gr-nwg"; */
+"UMd-Gr-nwg.text" = "ポイント:";
+
+/* Class = "UILabel"; text = "BeaconID:"; ObjectID = "V7j-U9-07B"; */
+"V7j-U9-07B.text" = "ビーコンID:";
+
+/* Class = "UILabel"; text = "Thank you to register"; ObjectID = "VbD-nr-h5l"; */
+"VbD-nr-h5l.text" = "ユーザの登録";
+
+/* Class = "UILabel"; text = "Age:"; ObjectID = "Wm2-21-fy1"; */
+"Wm2-21-fy1.text" = "年齢:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Zd4-1a-IZN"; */
+"Zd4-1a-IZN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Gender:"; ObjectID = "ad7-iU-XWi"; */
+"ad7-iU-XWi.text" = "性別:";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "asE-zF-lYD"; */
+"asE-zF-lYD.normalTitle" = "登録";
+
+/* Class = "UILabel"; text = "Back"; ObjectID = "b6j-Os-xh3"; */
+"b6j-Os-xh3.text" = "戻る";
+
+/* Class = "UILabel"; text = "Generated QR code"; ObjectID = "hGd-Mm-n5y"; */
+"hGd-Mm-n5y.text" = "QRコード";
+
+/* Class = "UILabel"; text = "Extra Mission is unlocked!!! Ask Ubi-chan for details"; ObjectID = "hLP-r9-9ow"; */
+"hLP-r9-9ow.text" = "秘密のミッションが解放されました！ Ubiiをタッチしてね";
+
+/* Class = "UILabel"; text = "Location:"; ObjectID = "igF-9p-dY6"; */
+"igF-9p-dY6.text" = "場所:";
+
+/* Class = "UISegmentedControl"; pG3-pp-0xN.segmentTitles[0] = "Male"; ObjectID = "pG3-pp-0xN"; */
+"pG3-pp-0xN.segmentTitles[0]" = "男性";
+
+/* Class = "UISegmentedControl"; pG3-pp-0xN.segmentTitles[1] = "Female"; ObjectID = "pG3-pp-0xN"; */
+"pG3-pp-0xN.segmentTitles[1]" = "女性";
+
+/* Class = "UILabel"; text = "CheckPoint:"; ObjectID = "tLb-q5-8jg"; */
+"tLb-q5-8jg.text" = "チェックポイント:";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "vEc-fr-vOQ"; */
+"vEc-fr-vOQ.text" = "N/A";

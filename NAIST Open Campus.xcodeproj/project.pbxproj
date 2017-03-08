@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E259A2067A3CA7FC6F4C325 /* Pods_NAIST_Open_Campus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757E6FE3257B91BB41EED816 /* Pods_NAIST_Open_Campus.framework */; };
+		79DFCD8A41629886862199B0 /* Pods_NAIST_Open_CampusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F313DBCCC8633FDD955F327 /* Pods_NAIST_Open_CampusUITests.framework */; };
+		800501101DD2E67300A934E2 /* ViewControllerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005010F1DD2E67300A934E2 /* ViewControllerTutorial.swift */; };
+		8073809E1DB74FBE00C0F9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073809D1DB74FBE00C0F9B5 /* AppDelegate.swift */; };
+		807380A01DB74FBE00C0F9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8073809F1DB74FBE00C0F9B5 /* ViewController.swift */; };
+		807380A51DB74FBE00C0F9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807380A41DB74FBE00C0F9B5 /* Assets.xcassets */; };
+		807380A81DB74FBE00C0F9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807380A61DB74FBE00C0F9B5 /* LaunchScreen.storyboard */; };
+		807380B31DB74FBF00C0F9B5 /* NAIST_Open_CampusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807380B21DB74FBF00C0F9B5 /* NAIST_Open_CampusTests.swift */; };
+		807380BE1DB74FBF00C0F9B5 /* NAIST_Open_CampusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807380BD1DB74FBF00C0F9B5 /* NAIST_Open_CampusUITests.swift */; };
+		807380CC1DB7542E00C0F9B5 /* ViewControllerRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807380CB1DB7542E00C0F9B5 /* ViewControllerRegistration.swift */; };
+		808D693A1DD3812F005B819D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 808D693C1DD3812F005B819D /* Localizable.strings */; };
+		809CB61C1DC31AA60085AF8A /* ViewControllerQRcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CB61B1DC31AA60085AF8A /* ViewControllerQRcode.swift */; };
+		80BFA1FC1DB7817200153993 /* ViewControllerCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BFA1FB1DB7817200153993 /* ViewControllerCamera.swift */; };
+		80D8783A1DC36266007205AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D878381DC36266007205AA /* Main.storyboard */; };
+		89705858C821D0B2ACB14D85 /* Pods_NAIST_Open_CampusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60AA7FB2484030FF18B8D68 /* Pods_NAIST_Open_CampusTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		807380AF1DB74FBF00C0F9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807380921DB74FBE00C0F9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807380991DB74FBE00C0F9B5;
+			remoteInfo = "NAIST Open Campus";
+		};
+		807380BA1DB74FBF00C0F9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807380921DB74FBE00C0F9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807380991DB74FBE00C0F9B5;
+			remoteInfo = "NAIST Open Campus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34247E75075AADD6F4C2A6E9 /* Pods-NAIST Open CampusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST Open CampusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST Open CampusTests/Pods-NAIST Open CampusTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F313DBCCC8633FDD955F327 /* Pods_NAIST_Open_CampusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAIST_Open_CampusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F941E7BBA1DFB320AEEDA8 /* Pods-NAIST Open Campus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST Open Campus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST Open Campus/Pods-NAIST Open Campus.debug.xcconfig"; sourceTree = "<group>"; };
+		757E6FE3257B91BB41EED816 /* Pods_NAIST_Open_Campus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAIST_Open_Campus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8005010F1DD2E67300A934E2 /* ViewControllerTutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTutorial.swift; sourceTree = "<group>"; };
+		8073809A1DB74FBE00C0F9B5 /* NAIST Open Campus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAIST Open Campus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8073809D1DB74FBE00C0F9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8073809F1DB74FBE00C0F9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		807380A41DB74FBE00C0F9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807380A71DB74FBE00C0F9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		807380A91DB74FBE00C0F9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807380AE1DB74FBF00C0F9B5 /* NAIST Open CampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NAIST Open CampusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807380B21DB74FBF00C0F9B5 /* NAIST_Open_CampusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAIST_Open_CampusTests.swift; sourceTree = "<group>"; };
+		807380B41DB74FBF00C0F9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807380B91DB74FBF00C0F9B5 /* NAIST Open CampusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NAIST Open CampusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807380BD1DB74FBF00C0F9B5 /* NAIST_Open_CampusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAIST_Open_CampusUITests.swift; sourceTree = "<group>"; };
+		807380BF1DB74FBF00C0F9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807380CB1DB7542E00C0F9B5 /* ViewControllerRegistration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistration.swift; sourceTree = "<group>"; };
+		808BF7A6C6DFD0754D9D60B1 /* Pods-NAIST Open CampusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST Open CampusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST Open CampusUITests/Pods-NAIST Open CampusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		808D69361DD37550005B819D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		808D69371DD37550005B819D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		808D693B1DD3812F005B819D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		808D693D1DD3813B005B819D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		809CB61B1DC31AA60085AF8A /* ViewControllerQRcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerQRcode.swift; sourceTree = "<group>"; };
+		80BFA1FB1DB7817200153993 /* ViewControllerCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCamera.swift; sourceTree = "<group>"; };
+		80D878391DC36266007205AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8601E1F574AF88A241A0CA31 /* Pods-NAIST Open CampusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST Open CampusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST Open CampusUITests/Pods-NAIST Open CampusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		97E5CB600C2703A5E044E84C /* Pods-NAIST Open CampusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST Open CampusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST Open CampusTests/Pods-NAIST Open CampusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F09EE540C930936304D9E170 /* Pods-NAIST Open Campus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAIST Open Campus.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAIST Open Campus/Pods-NAIST Open Campus.release.xcconfig"; sourceTree = "<group>"; };
+		F60AA7FB2484030FF18B8D68 /* Pods_NAIST_Open_CampusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAIST_Open_CampusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807380971DB74FBE00C0F9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E259A2067A3CA7FC6F4C325 /* Pods_NAIST_Open_Campus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807380AB1DB74FBF00C0F9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89705858C821D0B2ACB14D85 /* Pods_NAIST_Open_CampusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807380B61DB74FBF00C0F9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DFCD8A41629886862199B0 /* Pods_NAIST_Open_CampusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38AC88CCCB54539655A0A03B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				757E6FE3257B91BB41EED816 /* Pods_NAIST_Open_Campus.framework */,
+				F60AA7FB2484030FF18B8D68 /* Pods_NAIST_Open_CampusTests.framework */,
+				5F313DBCCC8633FDD955F327 /* Pods_NAIST_Open_CampusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		807380911DB74FBE00C0F9B5 = {
+			isa = PBXGroup;
+			children = (
+				8073809C1DB74FBE00C0F9B5 /* NAIST Open Campus */,
+				807380B11DB74FBF00C0F9B5 /* NAIST Open CampusTests */,
+				807380BC1DB74FBF00C0F9B5 /* NAIST Open CampusUITests */,
+				8073809B1DB74FBE00C0F9B5 /* Products */,
+				AF56ED5AD8F1D5B930EF377C /* Pods */,
+				38AC88CCCB54539655A0A03B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8073809B1DB74FBE00C0F9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8073809A1DB74FBE00C0F9B5 /* NAIST Open Campus.app */,
+				807380AE1DB74FBF00C0F9B5 /* NAIST Open CampusTests.xctest */,
+				807380B91DB74FBF00C0F9B5 /* NAIST Open CampusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8073809C1DB74FBE00C0F9B5 /* NAIST Open Campus */ = {
+			isa = PBXGroup;
+			children = (
+				80D878381DC36266007205AA /* Main.storyboard */,
+				8073809D1DB74FBE00C0F9B5 /* AppDelegate.swift */,
+				8073809F1DB74FBE00C0F9B5 /* ViewController.swift */,
+				807380CB1DB7542E00C0F9B5 /* ViewControllerRegistration.swift */,
+				80BFA1FB1DB7817200153993 /* ViewControllerCamera.swift */,
+				809CB61B1DC31AA60085AF8A /* ViewControllerQRcode.swift */,
+				807380A41DB74FBE00C0F9B5 /* Assets.xcassets */,
+				807380A61DB74FBE00C0F9B5 /* LaunchScreen.storyboard */,
+				807380A91DB74FBE00C0F9B5 /* Info.plist */,
+				8005010F1DD2E67300A934E2 /* ViewControllerTutorial.swift */,
+				808D693C1DD3812F005B819D /* Localizable.strings */,
+			);
+			path = "NAIST Open Campus";
+			sourceTree = "<group>";
+		};
+		807380B11DB74FBF00C0F9B5 /* NAIST Open CampusTests */ = {
+			isa = PBXGroup;
+			children = (
+				807380B21DB74FBF00C0F9B5 /* NAIST_Open_CampusTests.swift */,
+				807380B41DB74FBF00C0F9B5 /* Info.plist */,
+			);
+			path = "NAIST Open CampusTests";
+			sourceTree = "<group>";
+		};
+		807380BC1DB74FBF00C0F9B5 /* NAIST Open CampusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				807380BD1DB74FBF00C0F9B5 /* NAIST_Open_CampusUITests.swift */,
+				807380BF1DB74FBF00C0F9B5 /* Info.plist */,
+			);
+			path = "NAIST Open CampusUITests";
+			sourceTree = "<group>";
+		};
+		AF56ED5AD8F1D5B930EF377C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63F941E7BBA1DFB320AEEDA8 /* Pods-NAIST Open Campus.debug.xcconfig */,
+				F09EE540C930936304D9E170 /* Pods-NAIST Open Campus.release.xcconfig */,
+				97E5CB600C2703A5E044E84C /* Pods-NAIST Open CampusTests.debug.xcconfig */,
+				34247E75075AADD6F4C2A6E9 /* Pods-NAIST Open CampusTests.release.xcconfig */,
+				808BF7A6C6DFD0754D9D60B1 /* Pods-NAIST Open CampusUITests.debug.xcconfig */,
+				8601E1F574AF88A241A0CA31 /* Pods-NAIST Open CampusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807380991DB74FBE00C0F9B5 /* NAIST Open Campus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807380C21DB74FBF00C0F9B5 /* Build configuration list for PBXNativeTarget "NAIST Open Campus" */;
+			buildPhases = (
+				3B32EF80DB03FB5F9C5657C4 /* [CP] Check Pods Manifest.lock */,
+				807380961DB74FBE00C0F9B5 /* Sources */,
+				807380971DB74FBE00C0F9B5 /* Frameworks */,
+				807380981DB74FBE00C0F9B5 /* Resources */,
+				60848CC5037D8E6030FDBB85 /* [CP] Embed Pods Frameworks */,
+				ACE9303504D797FF9E473F88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NAIST Open Campus";
+			productName = "NAIST Open Campus";
+			productReference = 8073809A1DB74FBE00C0F9B5 /* NAIST Open Campus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		807380AD1DB74FBF00C0F9B5 /* NAIST Open CampusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807380C51DB74FBF00C0F9B5 /* Build configuration list for PBXNativeTarget "NAIST Open CampusTests" */;
+			buildPhases = (
+				0E3C34E54CC8C93E3B9D866F /* [CP] Check Pods Manifest.lock */,
+				807380AA1DB74FBF00C0F9B5 /* Sources */,
+				807380AB1DB74FBF00C0F9B5 /* Frameworks */,
+				807380AC1DB74FBF00C0F9B5 /* Resources */,
+				A0D785A88AC602E90EF0F57B /* [CP] Embed Pods Frameworks */,
+				7B878A7DF742B0E997BDA542 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807380B01DB74FBF00C0F9B5 /* PBXTargetDependency */,
+			);
+			name = "NAIST Open CampusTests";
+			productName = "NAIST Open CampusTests";
+			productReference = 807380AE1DB74FBF00C0F9B5 /* NAIST Open CampusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		807380B81DB74FBF00C0F9B5 /* NAIST Open CampusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807380C81DB74FBF00C0F9B5 /* Build configuration list for PBXNativeTarget "NAIST Open CampusUITests" */;
+			buildPhases = (
+				7132CBAADA85C4077ECDCFE1 /* [CP] Check Pods Manifest.lock */,
+				807380B51DB74FBF00C0F9B5 /* Sources */,
+				807380B61DB74FBF00C0F9B5 /* Frameworks */,
+				807380B71DB74FBF00C0F9B5 /* Resources */,
+				8FFCA3802B813B14FBA0B1CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807380BB1DB74FBF00C0F9B5 /* PBXTargetDependency */,
+			);
+			name = "NAIST Open CampusUITests";
+			productName = "NAIST Open CampusUITests";
+			productReference = 807380B91DB74FBF00C0F9B5 /* NAIST Open CampusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807380921DB74FBE00C0F9B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Edess Akpa";
+				TargetAttributes = {
+					807380991DB74FBE00C0F9B5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 99WH395BKY;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					807380AD1DB74FBF00C0F9B5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 99WH395BKY;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 807380991DB74FBE00C0F9B5;
+					};
+					807380B81DB74FBF00C0F9B5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 99WH395BKY;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 807380991DB74FBE00C0F9B5;
+					};
+				};
+			};
+			buildConfigurationList = 807380951DB74FBE00C0F9B5 /* Build configuration list for PBXProject "NAIST Open Campus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 807380911DB74FBE00C0F9B5;
+			productRefGroup = 8073809B1DB74FBE00C0F9B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807380991DB74FBE00C0F9B5 /* NAIST Open Campus */,
+				807380AD1DB74FBF00C0F9B5 /* NAIST Open CampusTests */,
+				807380B81DB74FBF00C0F9B5 /* NAIST Open CampusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807380981DB74FBE00C0F9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D8783A1DC36266007205AA /* Main.storyboard in Resources */,
+				808D693A1DD3812F005B819D /* Localizable.strings in Resources */,
+				807380A81DB74FBE00C0F9B5 /* LaunchScreen.storyboard in Resources */,
+				807380A51DB74FBE00C0F9B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807380AC1DB74FBF00C0F9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807380B71DB74FBF00C0F9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E3C34E54CC8C93E3B9D866F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B32EF80DB03FB5F9C5657C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60848CC5037D8E6030FDBB85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST Open Campus/Pods-NAIST Open Campus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7132CBAADA85C4077ECDCFE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B878A7DF742B0E997BDA542 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST Open CampusTests/Pods-NAIST Open CampusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFCA3802B813B14FBA0B1CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST Open CampusUITests/Pods-NAIST Open CampusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D785A88AC602E90EF0F57B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST Open CampusTests/Pods-NAIST Open CampusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE9303504D797FF9E473F88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAIST Open Campus/Pods-NAIST Open Campus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807380961DB74FBE00C0F9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807380CC1DB7542E00C0F9B5 /* ViewControllerRegistration.swift in Sources */,
+				809CB61C1DC31AA60085AF8A /* ViewControllerQRcode.swift in Sources */,
+				80BFA1FC1DB7817200153993 /* ViewControllerCamera.swift in Sources */,
+				807380A01DB74FBE00C0F9B5 /* ViewController.swift in Sources */,
+				800501101DD2E67300A934E2 /* ViewControllerTutorial.swift in Sources */,
+				8073809E1DB74FBE00C0F9B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807380AA1DB74FBF00C0F9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807380B31DB74FBF00C0F9B5 /* NAIST_Open_CampusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807380B51DB74FBF00C0F9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807380BE1DB74FBF00C0F9B5 /* NAIST_Open_CampusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		807380B01DB74FBF00C0F9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807380991DB74FBE00C0F9B5 /* NAIST Open Campus */;
+			targetProxy = 807380AF1DB74FBF00C0F9B5 /* PBXContainerItemProxy */;
+		};
+		807380BB1DB74FBF00C0F9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807380991DB74FBE00C0F9B5 /* NAIST Open Campus */;
+			targetProxy = 807380BA1DB74FBF00C0F9B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		807380A61DB74FBE00C0F9B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807380A71DB74FBE00C0F9B5 /* Base */,
+				808D69371DD37550005B819D /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		808D693C1DD3812F005B819D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808D693B1DD3812F005B819D /* Base */,
+				808D693D1DD3813B005B819D /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		80D878381DC36266007205AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D878391DC36266007205AA /* Base */,
+				808D69361DD37550005B819D /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807380C01DB74FBF00C0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		807380C11DB74FBF00C0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807380C31DB74FBF00C0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F941E7BBA1DFB320AEEDA8 /* Pods-NAIST Open Campus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = "NAIST Open Campus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edess.corporation.NAISTOpenCampus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		807380C41DB74FBF00C0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09EE540C930936304D9E170 /* Pods-NAIST Open Campus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = "NAIST Open Campus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edess.corporation.NAISTOpenCampus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		807380C61DB74FBF00C0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E5CB600C2703A5E044E84C /* Pods-NAIST Open CampusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = "NAIST Open CampusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edess.corporation.NAIST-Open-CampusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAIST Open Campus.app/NAIST Open Campus";
+			};
+			name = Debug;
+		};
+		807380C71DB74FBF00C0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34247E75075AADD6F4C2A6E9 /* Pods-NAIST Open CampusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = "NAIST Open CampusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edess.corporation.NAIST-Open-CampusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAIST Open Campus.app/NAIST Open Campus";
+			};
+			name = Release;
+		};
+		807380C91DB74FBF00C0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 808BF7A6C6DFD0754D9D60B1 /* Pods-NAIST Open CampusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = "NAIST Open CampusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edess.corporation.NAIST-Open-CampusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NAIST Open Campus";
+			};
+			name = Debug;
+		};
+		807380CA1DB74FBF00C0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8601E1F574AF88A241A0CA31 /* Pods-NAIST Open CampusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 99WH395BKY;
+				INFOPLIST_FILE = "NAIST Open CampusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edess.corporation.NAIST-Open-CampusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NAIST Open Campus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807380951DB74FBE00C0F9B5 /* Build configuration list for PBXProject "NAIST Open Campus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807380C01DB74FBF00C0F9B5 /* Debug */,
+				807380C11DB74FBF00C0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807380C21DB74FBF00C0F9B5 /* Build configuration list for PBXNativeTarget "NAIST Open Campus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807380C31DB74FBF00C0F9B5 /* Debug */,
+				807380C41DB74FBF00C0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807380C51DB74FBF00C0F9B5 /* Build configuration list for PBXNativeTarget "NAIST Open CampusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807380C61DB74FBF00C0F9B5 /* Debug */,
+				807380C71DB74FBF00C0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807380C81DB74FBF00C0F9B5 /* Build configuration list for PBXNativeTarget "NAIST Open CampusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807380C91DB74FBF00C0F9B5 /* Debug */,
+				807380CA1DB74FBF00C0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 807380921DB74FBE00C0F9B5 /* Project object */;
+}
