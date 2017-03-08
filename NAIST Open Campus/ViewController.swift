@@ -9,13 +9,11 @@
 import UIKit
 import CoreLocation
 import MapKit
-//import SwiftMQTT
-//import CocoaMQTT
 import Moscapsule
 import GoogleMaps
 
 
-class ViewController: UIViewController, CLLocationManagerDelegate,MKMapViewDelegate{ //, CocoaMQTTDelegate ,MQTTSessionDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate,MKMapViewDelegate{
     
     //UI widgets
     @IBOutlet weak var lblUUID: UILabel!
@@ -31,9 +29,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate,MKMapViewDeleg
     
     @IBOutlet weak var qRcodeButton: UIButton!
     
-    //@IBOutlet weak var lblUbiChanMessage: UILabel!
-    
-    //@IBOutlet weak var myMapView: MKMapView!
     
     
     
@@ -50,6 +45,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate,MKMapViewDeleg
 //        "d0d3fa86-ca76-45ec-9bd9-6af45fe2f63d"
 //    ]
     
+    //list of beacons UUIDs I worked with
     let UUIDList = [
         "d0d3fa86-ca76-45ec-9bd9-6af44b489a9d",
         "d0d3fa86-ca76-45ec-9bd9-6af4fc7f8095",
@@ -127,7 +123,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate,MKMapViewDeleg
             UserDefaults.standard.synchronize()
         }else
         {
-            //myUserUniqueID = UserDefaults.standard.value(forKey: "userUnique_ID")
+            
              myUserUniqueID = UserDefaults.standard.value(forKey: "userUnique_ID") as Any as! Int
             print("[Debbbuuuuuug] userId from default memory = \(myUserUniqueID)")
             
@@ -137,7 +133,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate,MKMapViewDeleg
             
             //get user points (Int)
             myUserCurrentPoints = UserDefaults.standard.value(forKey: "user_points") as! Int!
-            //myUserCurrentPoints = 201
+            //myUserCurrentPoints = 201 // fix the value of currents points for testing
             
             print("=== userCurrentPointsString \(myUserCurrentPoints!)")
             
